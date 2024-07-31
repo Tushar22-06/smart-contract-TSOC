@@ -10,11 +10,4 @@ export class Demo extends SmartContract {
         this.hash = hash;
     }
 
-    @method()
-    async unlock(message: string) {
-        // Unlock logic here
-        console.log(`Unlocking with message: ${message}`);
-        // Perform unlock operations
-        return { success: true };
-    }
 }
